@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: a-star-planner-gazebo
+Version: 0.0.1
+Summary: A* planner with RViz goal + simple follower
+Maintainer: You
+Maintainer-email: you@example.com
+License: MIT

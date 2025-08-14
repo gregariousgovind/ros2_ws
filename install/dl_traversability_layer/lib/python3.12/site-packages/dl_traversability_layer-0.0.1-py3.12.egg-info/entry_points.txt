@@ -1,0 +1,2 @@
+[console_scripts]
+traversability = dl_traversability_layer.traversability_node:main

@@ -1,0 +1,2 @@
+[console_scripts]
+grid_slam = grid_slam_gazebo.grid_slam_node:main

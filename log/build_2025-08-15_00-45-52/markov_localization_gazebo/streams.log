@@ -1,0 +1,51 @@
+[3.837s] Invoking command in '/home/cloud/ros2_ws/src/markov_localization_gazebo': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cloud/ros2_ws/build/markov_localization_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cloud/ros2_ws/install/markov_localization_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/markov_localization_gazebo build --build-base /home/cloud/ros2_ws/build/markov_localization_gazebo/build install --record /home/cloud/ros2_ws/build/markov_localization_gazebo/install.log --single-version-externally-managed install_data
+[4.636s] running egg_info
+[4.637s] creating ../../build/markov_localization_gazebo/markov_localization_gazebo.egg-info
+[4.700s] writing ../../build/markov_localization_gazebo/markov_localization_gazebo.egg-info/PKG-INFO
+[4.702s] writing dependency_links to ../../build/markov_localization_gazebo/markov_localization_gazebo.egg-info/dependency_links.txt
+[4.703s] writing entry points to ../../build/markov_localization_gazebo/markov_localization_gazebo.egg-info/entry_points.txt
+[4.704s] writing requirements to ../../build/markov_localization_gazebo/markov_localization_gazebo.egg-info/requires.txt
+[4.705s] writing top-level names to ../../build/markov_localization_gazebo/markov_localization_gazebo.egg-info/top_level.txt
+[4.705s] writing manifest file '../../build/markov_localization_gazebo/markov_localization_gazebo.egg-info/SOURCES.txt'
+[4.829s] reading manifest file '../../build/markov_localization_gazebo/markov_localization_gazebo.egg-info/SOURCES.txt'
+[4.831s] writing manifest file '../../build/markov_localization_gazebo/markov_localization_gazebo.egg-info/SOURCES.txt'
+[4.832s] running build
+[4.835s] running build_py
+[4.835s] creating /home/cloud/ros2_ws/build/markov_localization_gazebo/build
+[4.835s] creating /home/cloud/ros2_ws/build/markov_localization_gazebo/build/lib
+[4.836s] creating /home/cloud/ros2_ws/build/markov_localization_gazebo/build/lib/markov_localization_gazebo
+[4.836s] copying markov_localization_gazebo/motion_models.py -> /home/cloud/ros2_ws/build/markov_localization_gazebo/build/lib/markov_localization_gazebo
+[4.838s] copying markov_localization_gazebo/grid_utils.py -> /home/cloud/ros2_ws/build/markov_localization_gazebo/build/lib/markov_localization_gazebo
+[4.840s] copying markov_localization_gazebo/sensor_models.py -> /home/cloud/ros2_ws/build/markov_localization_gazebo/build/lib/markov_localization_gazebo
+[4.841s] copying markov_localization_gazebo/__init__.py -> /home/cloud/ros2_ws/build/markov_localization_gazebo/build/lib/markov_localization_gazebo
+[4.841s] copying markov_localization_gazebo/markov_localization_node.py -> /home/cloud/ros2_ws/build/markov_localization_gazebo/build/lib/markov_localization_gazebo
+[4.844s] running install
+[4.864s] running install_lib
+[4.926s] creating /home/cloud/ros2_ws/install/markov_localization_gazebo/lib/python3.12/site-packages/markov_localization_gazebo
+[4.926s] copying /home/cloud/ros2_ws/build/markov_localization_gazebo/build/lib/markov_localization_gazebo/motion_models.py -> /home/cloud/ros2_ws/install/markov_localization_gazebo/lib/python3.12/site-packages/markov_localization_gazebo
+[4.926s] copying /home/cloud/ros2_ws/build/markov_localization_gazebo/build/lib/markov_localization_gazebo/grid_utils.py -> /home/cloud/ros2_ws/install/markov_localization_gazebo/lib/python3.12/site-packages/markov_localization_gazebo
+[4.927s] copying /home/cloud/ros2_ws/build/markov_localization_gazebo/build/lib/markov_localization_gazebo/sensor_models.py -> /home/cloud/ros2_ws/install/markov_localization_gazebo/lib/python3.12/site-packages/markov_localization_gazebo
+[4.927s] copying /home/cloud/ros2_ws/build/markov_localization_gazebo/build/lib/markov_localization_gazebo/__init__.py -> /home/cloud/ros2_ws/install/markov_localization_gazebo/lib/python3.12/site-packages/markov_localization_gazebo
+[4.927s] copying /home/cloud/ros2_ws/build/markov_localization_gazebo/build/lib/markov_localization_gazebo/markov_localization_node.py -> /home/cloud/ros2_ws/install/markov_localization_gazebo/lib/python3.12/site-packages/markov_localization_gazebo
+[4.929s] byte-compiling /home/cloud/ros2_ws/install/markov_localization_gazebo/lib/python3.12/site-packages/markov_localization_gazebo/motion_models.py to motion_models.cpython-312.pyc
+[4.930s] byte-compiling /home/cloud/ros2_ws/install/markov_localization_gazebo/lib/python3.12/site-packages/markov_localization_gazebo/grid_utils.py to grid_utils.cpython-312.pyc
+[4.931s] byte-compiling /home/cloud/ros2_ws/install/markov_localization_gazebo/lib/python3.12/site-packages/markov_localization_gazebo/sensor_models.py to sensor_models.cpython-312.pyc
+[4.933s] byte-compiling /home/cloud/ros2_ws/install/markov_localization_gazebo/lib/python3.12/site-packages/markov_localization_gazebo/__init__.py to __init__.cpython-312.pyc
+[4.934s] byte-compiling /home/cloud/ros2_ws/install/markov_localization_gazebo/lib/python3.12/site-packages/markov_localization_gazebo/markov_localization_node.py to markov_localization_node.cpython-312.pyc
+[4.938s] running install_data
+[4.939s] creating /home/cloud/ros2_ws/install/markov_localization_gazebo/share/ament_index
+[4.940s] creating /home/cloud/ros2_ws/install/markov_localization_gazebo/share/ament_index/resource_index
+[4.940s] creating /home/cloud/ros2_ws/install/markov_localization_gazebo/share/ament_index/resource_index/packages
+[4.940s] copying resource/markov_localization_gazebo -> /home/cloud/ros2_ws/install/markov_localization_gazebo/share/ament_index/resource_index/packages
+[4.943s] copying package.xml -> /home/cloud/ros2_ws/install/markov_localization_gazebo/share/markov_localization_gazebo
+[4.944s] creating /home/cloud/ros2_ws/install/markov_localization_gazebo/share/markov_localization_gazebo/launch
+[4.944s] copying launch/markov_localization.launch.py -> /home/cloud/ros2_ws/install/markov_localization_gazebo/share/markov_localization_gazebo/launch
+[4.944s] copying launch/markov_with_gazebo.launch.py -> /home/cloud/ros2_ws/install/markov_localization_gazebo/share/markov_localization_gazebo/launch
+[4.944s] creating /home/cloud/ros2_ws/install/markov_localization_gazebo/share/markov_localization_gazebo/rviz
+[4.944s] copying rviz/markov_localization.rviz -> /home/cloud/ros2_ws/install/markov_localization_gazebo/share/markov_localization_gazebo/rviz
+[4.945s] running install_egg_info
+[5.010s] Copying ../../build/markov_localization_gazebo/markov_localization_gazebo.egg-info to /home/cloud/ros2_ws/install/markov_localization_gazebo/lib/python3.12/site-packages/markov_localization_gazebo-0.0.1-py3.12.egg-info
+[5.014s] running install_scripts
+[5.404s] Installing markov_localization script to /home/cloud/ros2_ws/install/markov_localization_gazebo/lib/markov_localization_gazebo
+[5.406s] writing list of installed files to '/home/cloud/ros2_ws/build/markov_localization_gazebo/install.log'
+[5.475s] Invoked command in '/home/cloud/ros2_ws/src/markov_localization_gazebo' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cloud/ros2_ws/build/markov_localization_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cloud/ros2_ws/install/markov_localization_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/markov_localization_gazebo build --build-base /home/cloud/ros2_ws/build/markov_localization_gazebo/build install --record /home/cloud/ros2_ws/build/markov_localization_gazebo/install.log --single-version-externally-managed install_data

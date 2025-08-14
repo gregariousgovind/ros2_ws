@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: grid-slam-gazebo
+Version: 0.0.1
+Summary: 2D Grid-Based SLAM (log-odds) for ROS 2 + Gazebo
+Maintainer: You
+Maintainer-email: you@example.com
+License: MIT

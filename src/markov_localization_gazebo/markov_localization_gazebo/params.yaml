@@ -1,0 +1,26 @@
+/**:
+  ros__parameters:
+    # Map settings
+    map_resolution: 0.05         # meters per cell
+    map_width: 100               # number of cells
+    map_height: 100              # number of cells
+    
+    # Motion model noise
+    motion_noise_linear: 0.1     # standard deviation in meters
+    motion_noise_angular: 0.05   # standard deviation in radians
+    
+    # Sensor model noise
+    sensor_range: 10.0           # meters
+    sensor_noise: 0.05           # standard deviation
+    
+    # Particle filter
+    num_particles: 100
+    resample_threshold: 0.5
+    
+    # Frame IDs
+    base_frame: "base_link"
+    odom_frame: "odom"
+    map_frame: "map"
+    
+    # Use simulated time from Gazebo
+    use_sim_time: true

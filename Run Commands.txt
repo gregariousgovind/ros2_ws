@@ -1,0 +1,198 @@
+Got it — I’ll walk you through the **exact launch sequence** and the **checks** to confirm the robot is really moving in both Gazebo and RViz.
+
+We’ll go step-by-step so you can isolate where things fail.
+
+---
+
+## **Step 1 — Start Gazebo with the robot**
+
+In Terminal A:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/ros2_ws/install/setup.bash
+
+ros2 launch my_turtlebot3_gazebo spawn_and_slam.launch.py
+```
+
+**Checks:**
+
+* Gazebo window should open.
+* You should see a **TurtleBot3** (or your chosen robot model) in the empty world.
+* Nothing will move yet — that’s fine.
+
+---
+
+## **Step 2 — Start Grid-Based SLAM**
+
+In Terminal B:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/ros2_ws/install/setup.bash
+
+ros2 launch grid_slam_gazebo grid_slam.launch.py
+```
+
+**Checks:**
+
+* Terminal should start printing messages about receiving scans or odometry.
+* Run:
+
+  ```bash
+  ros2 topic echo /map --once
+  ```
+
+  You should get a message with map metadata — that confirms SLAM is publishing `/map`.
+
+---
+
+## **Step 3 — Start Markov Localization**
+
+In Terminal C:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/ros2_ws/install/setup.bash
+
+ros2 launch markov_localization_gazebo markov_localization.launch.py
+```
+
+**Checks:**
+
+* You should see logs like “Received map” or “Updating belief”.
+* Run:
+
+  ```bash
+  ros2 topic echo /markov_pose --once
+  ```
+
+  You should get a pose estimate.
+
+---
+
+## **Step 4 — Start RViz**
+
+In Terminal D:
+
+```bash
+rviz2
+```
+
+**RViz Setup:**
+
+* **Fixed Frame** → `map`
+* Add:
+
+  * **Map** → topic `/map`
+  * **LaserScan** → topic `/scan`
+  * **Pose** → topic `/markov_pose`
+* You should see:
+
+  * Laser points where the robot is.
+  * A map slowly being drawn as you move.
+
+---
+
+## **Step 5 — Move the Robot**
+
+Two ways:
+
+### **Option A — Manual (Teleop)**
+
+In Terminal E:
+
+```bash
+sudo apt install ros-jazzy-teleop-twist-keyboard
+source /opt/ros/jazzy/setup.bash
+source ~/ros2_ws/install/setup.bash
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+
+Keys:
+
+```
+w = forward  
+s = backward  
+a = rotate left  
+d = rotate right  
+space = stop
+```
+
+**Check in Gazebo:**
+The robot’s wheels turn and its position changes.
+**Check in RViz:**
+The **LaserScan** points shift, and the map updates.
+
+---
+
+### **Option B — Automatic (Planner)**
+
+* In `grid_slam_gazebo/params.yaml` set:
+
+  ```yaml
+  planner:
+    goal_x: 2.0
+    goal_y: 1.0
+  ```
+* Relaunch Grid SLAM:
+
+  ```bash
+  ros2 launch grid_slam_gazebo grid_slam.launch.py
+  ```
+* The robot should start moving toward that goal automatically.
+
+---
+
+## **Step 6 — Confirm the Robot is Actually Moving**
+
+Run these in any terminal:
+
+1. **Check odometry:**
+
+   ```bash
+   ros2 topic echo /odom
+   ```
+
+   * `pose.pose.position.x` or `.y` should change as the robot moves.
+
+2. **Check TF tree movement:**
+
+   ```bash
+   ros2 run tf2_tools view_frames
+   evince frames.pdf
+   ```
+
+   * The `base_footprint` frame should be changing relative to `map` and `odom`.
+
+3. **Check velocity commands:**
+
+   ```bash
+   ros2 topic echo /cmd_vel
+   ```
+
+   * Nonzero `linear.x` or `angular.z` means movement commands are being sent.
+
+4. **Check visually in Gazebo & RViz**:
+
+   * In Gazebo → robot’s model physically changes position.
+   * In RViz → laser scan cloud and robot pose marker move over the map.
+
+---
+
+If you do all of the above and **odom, TF, and cmd\_vel** are updating but **Gazebo’s robot stays still**, it means the robot’s velocity topic name in Gazebo is different — we’d just remap `/cmd_vel` to the correct one.
+
+---
+
+If you want, I can now **merge all these steps into one integrated launch file** so that:
+
+* Gazebo + robot
+* SLAM
+* Markov localization
+* RViz with displays loaded
+* Teleop window
+
+all start together — then you can just press `w` and watch it work. That would remove most setup mistakes.
+
+Do you want me to prepare that?

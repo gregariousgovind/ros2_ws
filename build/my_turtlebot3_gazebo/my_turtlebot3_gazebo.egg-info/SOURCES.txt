@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/my_turtlebot3_gazebo/my_turtlebot3_gazebo.egg-info/PKG-INFO
+../../build/my_turtlebot3_gazebo/my_turtlebot3_gazebo.egg-info/SOURCES.txt
+../../build/my_turtlebot3_gazebo/my_turtlebot3_gazebo.egg-info/dependency_links.txt
+../../build/my_turtlebot3_gazebo/my_turtlebot3_gazebo.egg-info/requires.txt
+../../build/my_turtlebot3_gazebo/my_turtlebot3_gazebo.egg-info/top_level.txt
+../../build/my_turtlebot3_gazebo/my_turtlebot3_gazebo.egg-info/zip-safe
+config/turtlebot3_burger_bridge.yaml
+launch/my_world.launch.py
+launch/spawn_and_slam.launch.py
+launch/spawn_turtlebot3.launch.py
+my_turtlebot3_gazebo/__init__.py
+resource/my_turtlebot3_gazebo
+worlds/my_custom_world.world

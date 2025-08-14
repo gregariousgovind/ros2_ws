@@ -1,0 +1,18 @@
+grid_slam:
+  ros__parameters:
+    frame_ids:
+      map: map
+      base: base_footprint
+
+    planner:
+      inflate_radius_cells: 2
+      max_linear: 0.3
+      max_angular: 1.0
+      goal_tolerance_m: 0.15
+
+    topics:
+      map: /map
+      traversability_map: /traversability_map   # Optional (from DL layer). If unavailable, use /map.
+      goal: /goal_pose
+      path: /path
+      cmd_vel: /cmd_vel

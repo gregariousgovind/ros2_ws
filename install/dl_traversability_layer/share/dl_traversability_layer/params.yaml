@@ -1,0 +1,19 @@
+grid_slam:
+  ros__parameters:
+    frame_ids:
+      map: map
+
+    topics:
+      map: /map
+      scan: /scan
+      traversability_map: /traversability_map
+
+    model:
+      weights_path: ""          # Path to a .h5 file; if empty → heuristic fallback
+      patch_size: 64            # Local crop size around robot (cells)
+      publish_rate_hz: 2.0
+
+    heuristic:
+      occ_weight: 80            # Base penalty for occupancy
+      near_occ_weight: 40       # Penalty for cells near obstacles
+      near_radius: 2

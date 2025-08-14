@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/grid_slam_gazebo/grid_slam_gazebo.egg-info
+writing ../../build/grid_slam_gazebo/grid_slam_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../build/grid_slam_gazebo/grid_slam_gazebo.egg-info/dependency_links.txt
+writing entry points to ../../build/grid_slam_gazebo/grid_slam_gazebo.egg-info/entry_points.txt
+writing requirements to ../../build/grid_slam_gazebo/grid_slam_gazebo.egg-info/requires.txt
+writing top-level names to ../../build/grid_slam_gazebo/grid_slam_gazebo.egg-info/top_level.txt
+writing manifest file '../../build/grid_slam_gazebo/grid_slam_gazebo.egg-info/SOURCES.txt'
+reading manifest file '../../build/grid_slam_gazebo/grid_slam_gazebo.egg-info/SOURCES.txt'
+writing manifest file '../../build/grid_slam_gazebo/grid_slam_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/cloud/ros2_ws/build/grid_slam_gazebo/build
+creating /home/cloud/ros2_ws/build/grid_slam_gazebo/build/lib
+creating /home/cloud/ros2_ws/build/grid_slam_gazebo/build/lib/grid_slam_gazebo
+copying grid_slam_gazebo/a_star_planner.py -> /home/cloud/ros2_ws/build/grid_slam_gazebo/build/lib/grid_slam_gazebo
+copying grid_slam_gazebo/grid_utils.py -> /home/cloud/ros2_ws/build/grid_slam_gazebo/build/lib/grid_slam_gazebo
+copying grid_slam_gazebo/grid_slam_node.py -> /home/cloud/ros2_ws/build/grid_slam_gazebo/build/lib/grid_slam_gazebo
+copying grid_slam_gazebo/__init__.py -> /home/cloud/ros2_ws/build/grid_slam_gazebo/build/lib/grid_slam_gazebo
+copying grid_slam_gazebo/inverse_sensor_model.py -> /home/cloud/ros2_ws/build/grid_slam_gazebo/build/lib/grid_slam_gazebo
+running install
+running install_lib
+creating /home/cloud/ros2_ws/install/grid_slam_gazebo/lib/python3.12/site-packages/grid_slam_gazebo
+copying /home/cloud/ros2_ws/build/grid_slam_gazebo/build/lib/grid_slam_gazebo/a_star_planner.py -> /home/cloud/ros2_ws/install/grid_slam_gazebo/lib/python3.12/site-packages/grid_slam_gazebo
+copying /home/cloud/ros2_ws/build/grid_slam_gazebo/build/lib/grid_slam_gazebo/grid_utils.py -> /home/cloud/ros2_ws/install/grid_slam_gazebo/lib/python3.12/site-packages/grid_slam_gazebo
+copying /home/cloud/ros2_ws/build/grid_slam_gazebo/build/lib/grid_slam_gazebo/grid_slam_node.py -> /home/cloud/ros2_ws/install/grid_slam_gazebo/lib/python3.12/site-packages/grid_slam_gazebo
+copying /home/cloud/ros2_ws/build/grid_slam_gazebo/build/lib/grid_slam_gazebo/__init__.py -> /home/cloud/ros2_ws/install/grid_slam_gazebo/lib/python3.12/site-packages/grid_slam_gazebo
+copying /home/cloud/ros2_ws/build/grid_slam_gazebo/build/lib/grid_slam_gazebo/inverse_sensor_model.py -> /home/cloud/ros2_ws/install/grid_slam_gazebo/lib/python3.12/site-packages/grid_slam_gazebo
+byte-compiling /home/cloud/ros2_ws/install/grid_slam_gazebo/lib/python3.12/site-packages/grid_slam_gazebo/a_star_planner.py to a_star_planner.cpython-312.pyc
+byte-compiling /home/cloud/ros2_ws/install/grid_slam_gazebo/lib/python3.12/site-packages/grid_slam_gazebo/grid_utils.py to grid_utils.cpython-312.pyc
+byte-compiling /home/cloud/ros2_ws/install/grid_slam_gazebo/lib/python3.12/site-packages/grid_slam_gazebo/grid_slam_node.py to grid_slam_node.cpython-312.pyc
+byte-compiling /home/cloud/ros2_ws/install/grid_slam_gazebo/lib/python3.12/site-packages/grid_slam_gazebo/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/cloud/ros2_ws/install/grid_slam_gazebo/lib/python3.12/site-packages/grid_slam_gazebo/inverse_sensor_model.py to inverse_sensor_model.cpython-312.pyc
+running install_data
+creating /home/cloud/ros2_ws/install/grid_slam_gazebo/share/ament_index
+creating /home/cloud/ros2_ws/install/grid_slam_gazebo/share/ament_index/resource_index
+creating /home/cloud/ros2_ws/install/grid_slam_gazebo/share/ament_index/resource_index/packages
+copying resource/grid_slam_gazebo -> /home/cloud/ros2_ws/install/grid_slam_gazebo/share/ament_index/resource_index/packages
+creating /home/cloud/ros2_ws/install/grid_slam_gazebo/share/grid_slam_gazebo/launch
+copying launch/grid_slam.launch.py -> /home/cloud/ros2_ws/install/grid_slam_gazebo/share/grid_slam_gazebo/launch
+copying launch/gazebo_tb3_world.launch.py -> /home/cloud/ros2_ws/install/grid_slam_gazebo/share/grid_slam_gazebo/launch
+copying grid_slam_gazebo/params.yaml -> /home/cloud/ros2_ws/install/grid_slam_gazebo/share/grid_slam_gazebo
+running install_egg_info
+Copying ../../build/grid_slam_gazebo/grid_slam_gazebo.egg-info to /home/cloud/ros2_ws/install/grid_slam_gazebo/lib/python3.12/site-packages/grid_slam_gazebo-0.0.1-py3.12.egg-info
+running install_scripts
+Installing grid_slam script to /home/cloud/ros2_ws/install/grid_slam_gazebo/lib/grid_slam_gazebo
+writing list of installed files to '/home/cloud/ros2_ws/build/grid_slam_gazebo/install.log'

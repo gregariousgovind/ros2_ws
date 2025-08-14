@@ -1,0 +1,3 @@
+numpy
+setuptools
+tensorflow==2.15.*

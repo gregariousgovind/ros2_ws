@@ -1,0 +1,2 @@
+[console_scripts]
+markov_localization = markov_localization_gazebo.markov_localization:main

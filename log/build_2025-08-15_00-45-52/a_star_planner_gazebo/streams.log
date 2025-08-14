@@ -1,0 +1,42 @@
+[3.960s] Invoking command in '/home/cloud/ros2_ws/src/a_star_planner_gazebo': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cloud/ros2_ws/build/a_star_planner_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cloud/ros2_ws/install/a_star_planner_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/a_star_planner_gazebo build --build-base /home/cloud/ros2_ws/build/a_star_planner_gazebo/build install --record /home/cloud/ros2_ws/build/a_star_planner_gazebo/install.log --single-version-externally-managed install_data
+[4.745s] running egg_info
+[4.745s] creating ../../build/a_star_planner_gazebo/a_star_planner_gazebo.egg-info
+[4.806s] writing ../../build/a_star_planner_gazebo/a_star_planner_gazebo.egg-info/PKG-INFO
+[4.807s] writing dependency_links to ../../build/a_star_planner_gazebo/a_star_planner_gazebo.egg-info/dependency_links.txt
+[4.808s] writing entry points to ../../build/a_star_planner_gazebo/a_star_planner_gazebo.egg-info/entry_points.txt
+[4.809s] writing requirements to ../../build/a_star_planner_gazebo/a_star_planner_gazebo.egg-info/requires.txt
+[4.809s] writing top-level names to ../../build/a_star_planner_gazebo/a_star_planner_gazebo.egg-info/top_level.txt
+[4.810s] writing manifest file '../../build/a_star_planner_gazebo/a_star_planner_gazebo.egg-info/SOURCES.txt'
+[4.941s] reading manifest file '../../build/a_star_planner_gazebo/a_star_planner_gazebo.egg-info/SOURCES.txt'
+[4.942s] writing manifest file '../../build/a_star_planner_gazebo/a_star_planner_gazebo.egg-info/SOURCES.txt'
+[4.942s] running build
+[4.942s] running build_py
+[4.942s] creating /home/cloud/ros2_ws/build/a_star_planner_gazebo/build
+[4.942s] creating /home/cloud/ros2_ws/build/a_star_planner_gazebo/build/lib
+[4.943s] creating /home/cloud/ros2_ws/build/a_star_planner_gazebo/build/lib/a_star_planner_gazebo
+[4.943s] copying a_star_planner_gazebo/a_star_core.py -> /home/cloud/ros2_ws/build/a_star_planner_gazebo/build/lib/a_star_planner_gazebo
+[4.943s] copying a_star_planner_gazebo/a_star_node.py -> /home/cloud/ros2_ws/build/a_star_planner_gazebo/build/lib/a_star_planner_gazebo
+[4.943s] copying a_star_planner_gazebo/__init__.py -> /home/cloud/ros2_ws/build/a_star_planner_gazebo/build/lib/a_star_planner_gazebo
+[4.946s] running install
+[4.961s] running install_lib
+[5.029s] creating /home/cloud/ros2_ws/install/a_star_planner_gazebo/lib/python3.12/site-packages/a_star_planner_gazebo
+[5.030s] copying /home/cloud/ros2_ws/build/a_star_planner_gazebo/build/lib/a_star_planner_gazebo/a_star_core.py -> /home/cloud/ros2_ws/install/a_star_planner_gazebo/lib/python3.12/site-packages/a_star_planner_gazebo
+[5.030s] copying /home/cloud/ros2_ws/build/a_star_planner_gazebo/build/lib/a_star_planner_gazebo/a_star_node.py -> /home/cloud/ros2_ws/install/a_star_planner_gazebo/lib/python3.12/site-packages/a_star_planner_gazebo
+[5.033s] copying /home/cloud/ros2_ws/build/a_star_planner_gazebo/build/lib/a_star_planner_gazebo/__init__.py -> /home/cloud/ros2_ws/install/a_star_planner_gazebo/lib/python3.12/site-packages/a_star_planner_gazebo
+[5.034s] byte-compiling /home/cloud/ros2_ws/install/a_star_planner_gazebo/lib/python3.12/site-packages/a_star_planner_gazebo/a_star_core.py to a_star_core.cpython-312.pyc
+[5.034s] byte-compiling /home/cloud/ros2_ws/install/a_star_planner_gazebo/lib/python3.12/site-packages/a_star_planner_gazebo/a_star_node.py to a_star_node.cpython-312.pyc
+[5.038s] byte-compiling /home/cloud/ros2_ws/install/a_star_planner_gazebo/lib/python3.12/site-packages/a_star_planner_gazebo/__init__.py to __init__.cpython-312.pyc
+[5.039s] running install_data
+[5.039s] creating /home/cloud/ros2_ws/install/a_star_planner_gazebo/share/ament_index
+[5.040s] creating /home/cloud/ros2_ws/install/a_star_planner_gazebo/share/ament_index/resource_index
+[5.040s] creating /home/cloud/ros2_ws/install/a_star_planner_gazebo/share/ament_index/resource_index/packages
+[5.040s] copying resource/a_star_planner_gazebo -> /home/cloud/ros2_ws/install/a_star_planner_gazebo/share/ament_index/resource_index/packages
+[5.041s] creating /home/cloud/ros2_ws/install/a_star_planner_gazebo/share/a_star_planner_gazebo/launch
+[5.042s] copying launch/a_star.launch.py -> /home/cloud/ros2_ws/install/a_star_planner_gazebo/share/a_star_planner_gazebo/launch
+[5.042s] copying a_star_planner_gazebo/params.yaml -> /home/cloud/ros2_ws/install/a_star_planner_gazebo/share/a_star_planner_gazebo
+[5.043s] running install_egg_info
+[5.109s] Copying ../../build/a_star_planner_gazebo/a_star_planner_gazebo.egg-info to /home/cloud/ros2_ws/install/a_star_planner_gazebo/lib/python3.12/site-packages/a_star_planner_gazebo-0.0.1-py3.12.egg-info
+[5.111s] running install_scripts
+[5.543s] Installing a_star_node script to /home/cloud/ros2_ws/install/a_star_planner_gazebo/lib/a_star_planner_gazebo
+[5.557s] writing list of installed files to '/home/cloud/ros2_ws/build/a_star_planner_gazebo/install.log'
+[6.316s] Invoked command in '/home/cloud/ros2_ws/src/a_star_planner_gazebo' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cloud/ros2_ws/build/a_star_planner_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cloud/ros2_ws/install/a_star_planner_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/a_star_planner_gazebo build --build-base /home/cloud/ros2_ws/build/a_star_planner_gazebo/build install --record /home/cloud/ros2_ws/build/a_star_planner_gazebo/install.log --single-version-externally-managed install_data

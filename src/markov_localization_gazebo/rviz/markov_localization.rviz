@@ -1,0 +1,27 @@
+Panels:
+- Class: rviz_common/Displays
+  Name: Displays
+- Class: rviz_common/Views
+  Name: Views
+
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Name: Map
+      Class: rviz_default_plugins/Map
+      Topic: /map
+      Enabled: true
+    - Name: LaserScan
+      Class: rviz_default_plugins/LaserScan
+      Topic: /scan
+      Enabled: true
+    - Name: Pose
+      Class: rviz_default_plugins/Pose
+      Topic: /markov_pose
+      Enabled: true
+  Global Options:
+    Fixed Frame: map
+    Background Color: 48; 48; 48
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit

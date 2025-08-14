@@ -1,0 +1,42 @@
+[4.172s] Invoking command in '/home/cloud/ros2_ws/src/dl_traversability_layer': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cloud/ros2_ws/build/dl_traversability_layer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cloud/ros2_ws/install/dl_traversability_layer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dl_traversability_layer build --build-base /home/cloud/ros2_ws/build/dl_traversability_layer/build install --record /home/cloud/ros2_ws/build/dl_traversability_layer/install.log --single-version-externally-managed install_data
+[4.923s] running egg_info
+[4.924s] creating ../../build/dl_traversability_layer/dl_traversability_layer.egg-info
+[4.992s] writing ../../build/dl_traversability_layer/dl_traversability_layer.egg-info/PKG-INFO
+[4.993s] writing dependency_links to ../../build/dl_traversability_layer/dl_traversability_layer.egg-info/dependency_links.txt
+[4.993s] writing entry points to ../../build/dl_traversability_layer/dl_traversability_layer.egg-info/entry_points.txt
+[4.995s] writing requirements to ../../build/dl_traversability_layer/dl_traversability_layer.egg-info/requires.txt
+[4.995s] writing top-level names to ../../build/dl_traversability_layer/dl_traversability_layer.egg-info/top_level.txt
+[4.995s] writing manifest file '../../build/dl_traversability_layer/dl_traversability_layer.egg-info/SOURCES.txt'
+[5.118s] reading manifest file '../../build/dl_traversability_layer/dl_traversability_layer.egg-info/SOURCES.txt'
+[5.120s] writing manifest file '../../build/dl_traversability_layer/dl_traversability_layer.egg-info/SOURCES.txt'
+[5.120s] running build
+[5.121s] running build_py
+[5.121s] creating /home/cloud/ros2_ws/build/dl_traversability_layer/build
+[5.122s] creating /home/cloud/ros2_ws/build/dl_traversability_layer/build/lib
+[5.123s] creating /home/cloud/ros2_ws/build/dl_traversability_layer/build/lib/dl_traversability_layer
+[5.123s] copying dl_traversability_layer/traversability_node.py -> /home/cloud/ros2_ws/build/dl_traversability_layer/build/lib/dl_traversability_layer
+[5.124s] copying dl_traversability_layer/model.py -> /home/cloud/ros2_ws/build/dl_traversability_layer/build/lib/dl_traversability_layer
+[5.125s] copying dl_traversability_layer/__init__.py -> /home/cloud/ros2_ws/build/dl_traversability_layer/build/lib/dl_traversability_layer
+[5.125s] running install
+[5.143s] running install_lib
+[5.205s] creating /home/cloud/ros2_ws/install/dl_traversability_layer/lib/python3.12/site-packages/dl_traversability_layer
+[5.206s] copying /home/cloud/ros2_ws/build/dl_traversability_layer/build/lib/dl_traversability_layer/traversability_node.py -> /home/cloud/ros2_ws/install/dl_traversability_layer/lib/python3.12/site-packages/dl_traversability_layer
+[5.207s] copying /home/cloud/ros2_ws/build/dl_traversability_layer/build/lib/dl_traversability_layer/model.py -> /home/cloud/ros2_ws/install/dl_traversability_layer/lib/python3.12/site-packages/dl_traversability_layer
+[5.207s] copying /home/cloud/ros2_ws/build/dl_traversability_layer/build/lib/dl_traversability_layer/__init__.py -> /home/cloud/ros2_ws/install/dl_traversability_layer/lib/python3.12/site-packages/dl_traversability_layer
+[5.209s] byte-compiling /home/cloud/ros2_ws/install/dl_traversability_layer/lib/python3.12/site-packages/dl_traversability_layer/traversability_node.py to traversability_node.cpython-312.pyc
+[5.212s] byte-compiling /home/cloud/ros2_ws/install/dl_traversability_layer/lib/python3.12/site-packages/dl_traversability_layer/model.py to model.cpython-312.pyc
+[5.214s] byte-compiling /home/cloud/ros2_ws/install/dl_traversability_layer/lib/python3.12/site-packages/dl_traversability_layer/__init__.py to __init__.cpython-312.pyc
+[5.214s] running install_data
+[5.215s] creating /home/cloud/ros2_ws/install/dl_traversability_layer/share/ament_index
+[5.215s] creating /home/cloud/ros2_ws/install/dl_traversability_layer/share/ament_index/resource_index
+[5.216s] creating /home/cloud/ros2_ws/install/dl_traversability_layer/share/ament_index/resource_index/packages
+[5.216s] copying resource/dl_traversability_layer -> /home/cloud/ros2_ws/install/dl_traversability_layer/share/ament_index/resource_index/packages
+[5.217s] creating /home/cloud/ros2_ws/install/dl_traversability_layer/share/dl_traversability_layer/launch
+[5.218s] copying launch/traversability.launch.py -> /home/cloud/ros2_ws/install/dl_traversability_layer/share/dl_traversability_layer/launch
+[5.218s] copying dl_traversability_layer/params.yaml -> /home/cloud/ros2_ws/install/dl_traversability_layer/share/dl_traversability_layer
+[5.219s] running install_egg_info
+[5.290s] Copying ../../build/dl_traversability_layer/dl_traversability_layer.egg-info to /home/cloud/ros2_ws/install/dl_traversability_layer/lib/python3.12/site-packages/dl_traversability_layer-0.0.1-py3.12.egg-info
+[5.290s] running install_scripts
+[5.728s] Installing traversability script to /home/cloud/ros2_ws/install/dl_traversability_layer/lib/dl_traversability_layer
+[5.728s] writing list of installed files to '/home/cloud/ros2_ws/build/dl_traversability_layer/install.log'
+[6.317s] Invoked command in '/home/cloud/ros2_ws/src/dl_traversability_layer' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cloud/ros2_ws/build/dl_traversability_layer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cloud/ros2_ws/install/dl_traversability_layer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dl_traversability_layer build --build-base /home/cloud/ros2_ws/build/dl_traversability_layer/build install --record /home/cloud/ros2_ws/build/dl_traversability_layer/install.log --single-version-externally-managed install_data

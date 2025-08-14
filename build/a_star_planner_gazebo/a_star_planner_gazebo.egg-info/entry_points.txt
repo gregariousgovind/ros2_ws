@@ -1,0 +1,2 @@
+[console_scripts]
+a_star_node = a_star_planner_gazebo.a_star_node:main
